@@ -9,7 +9,7 @@ const NetflixIntro = () => {
     // After 6 seconds, navigate to profiles page
     const timer = setTimeout(() => {
       navigate('/profiles');
-    }, 4000);
+    }, 6000);
 
     return () => clearTimeout(timer);
   }, [navigate]);
@@ -22,4 +22,5 @@ const NetflixIntro = () => {
 };
 
 export default NetflixIntro;
+
 
